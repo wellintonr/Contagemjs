@@ -1,0 +1,60 @@
+body{
+background: rgba(70, 142 , 236);
+font: normal 20px Times, serif;
+}
+header{
+color: white;
+text-align: center;
+}
+section{
+  background-color:#C2C8C5;
+  border-radius:10px;
+  padding:15px;
+  width:500px;
+  margin:auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+  footer{
+  color:white;
+  text-align:center;
+  font-style: italic;
+}
+.container , input{
+  width: 56%;
+  margin: 3%;
+  font: normal 20px Times, serif;
+}
+.my-input {
+  display:flex;
+  margin:9px;
+  justify-content:space-between;
+  align-items:center;
+  
+  }
+.txt-input{
+  background-color:#D6E8EE;
+  border:none;
+  border-radius:10px;
+  text-align:center;
+
+}
+.txt-input:focus{ /* Essa regra remove a borda quando clicado */
+  box-shadow:0 0 0 0;
+  outline:0;
+}
+  .efeito{
+    border:none;
+    color:white;
+    padding:11px;
+    margin: 10px;
+    font-size:24px;
+    line-height:24px;
+    border-radius:10px;
+    position:relative;
+    box-sizing:border-box;
+    cursor: pointer;
+    background: #02457A;
+    width:100px;
+    text-align:center;
+  }
+
